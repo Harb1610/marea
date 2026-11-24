@@ -1,0 +1,4 @@
+import './globals.css';
+export const metadata = { title: 'MAREA Digital Studio', description: 'Estudio de diseño y desarrollo web. Webs, landing pages, sitios corporativos y tiendas online para negocios que quieren crecer.' };
+export const viewport = { width: 'device-width', initialScale: 1, viewportFit: 'cover' };
+export default function RootLayout({ children }) { return <html lang="es"><head><meta name="claude:viewport-fit-sides" content="cover" /><link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5..112.5,300..700;1,5..1200,87.5..112.5,300..700&family=Hanken+Grotesk:wght@400;500;600&display=swap" /></head><body>{children}</body></html>; }
